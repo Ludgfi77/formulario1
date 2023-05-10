@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="micss.css">
+    </head>
+    <body>
+        <h1 align="center">Registro de usuario</h1>
+        <form name="reg_usuario" method="get">
+            Nombre de usuario    <input type="text" name="nombre_usuario" id="nombre_usuario" size="30"> <br>
+            Apellido de usuario  <input type="text" name="apellido_usuario" id="apellido_usuario" size="30"> <br>
+            Seleccionar el sexo <input type="radio" name="sexo_socio" id="sexo_socio" value="varon">Masculino 
+                                <input type="radio" name="sexo_socio" id="sexo_socio" value="mujer" checked>Femenino <br>
+            Ingrese edad        <input type="number" name="edad_socio" id="edad_socio" min=18 max="80"> <br>
+            Fecha de nacimiento <input type="date" name="fecha_nac" id="fecha_nac"> <br>
+            Seleccionar su profesion:
+            <select name="profesiones" id="profesiones">  <br>
+                <option value="profesor">Profesor</option>
+                <option value="Arquitecta">Arquitecta</option>
+                <option value="doctor">Doctor</option>
+                <option value="bailalina">Bailalina</option>
+            </select> <br>
+            Comentario<textarea name="observ_socio" cols="60" rows="3">Dejame tu comentario:</textarea>
+            <input type="submit" value="Enviar">  
+            <input type="reset" value="Cancelar">
+            
+        </form>
+
+    </body>
+</html>
